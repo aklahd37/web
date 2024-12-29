@@ -1,0 +1,15 @@
+[
+    {
+        "cards": [
+            {
+                "title": "Royal Dining Hall",
+                "image": "dining_area1.jpg",
+                "rating": "9.2",
+                "reviews": "Superb · 1,020 reviews",
+                "price": "LKR 8,000"
+            },
+            // Add more cards
+        ]
+    },
+    // Add more slides
+]

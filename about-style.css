@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+  font-family: 'Georgia', serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfbf7;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background-color: #004d26;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* About Content Section */
+.about-content .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  gap: 30px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2,
+.about-text h3 {
+  color: #004d26;
+  margin-top: 20px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin-bottom: 10px;
+}
+
+/* Chef Section */
+.chef-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7f4f0;
+}
+
+.chef-section h2 {
+  font-size: 2.5rem;
+  color: #004d26;
+}
+
+.chef-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chef-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.chef-bio {
+  max-width: 500px;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  background-color: #004d26;
+  color: #ffffff;
+  padding: 20px;
+}

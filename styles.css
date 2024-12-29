@@ -1,0 +1,50 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdfbf7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #004d26; /* Dark green color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.about-content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 20px;
+    margin: 0 5px;
+}

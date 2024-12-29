@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup on Page Load</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .modal-content {
+            font-family: "Georgia", serif;
+            color: #5a5a5a;
+        }
+        .modal-header {
+            border-bottom: none;
+        }
+        .modal-body {
+            text-align: center;
+        }
+        .modal-body h3 {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .modal-body p {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .modal-body p.important {
+            font-style: italic;
+            color: #8a8a8a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Popup Modal -->
+    <div class="modal fade" id="pagePopup" tabindex="-1" aria-labelledby="popupTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Thanksgiving Supper at Anton's</h3>
+                    <p>We're offering a festive Thanksgiving supper in our dining room, from 2:00 in the afternoon to 8:00 in the evening. Our 3-course holiday menu will be offered for <strong>$120/person</strong> ($55 for kids aged 2–12), along with optional à la carte offerings from our dinner menu.</p>
+                    <p>Reservations are available on Resy, and large party reservations (8+) are available by emailing <a href="mailto:feasts@antonsnyc.com">feasts@antonsnyc.com</a>.</p>
+                    <p class="important">Please Note: Your entire party's participation is required to enjoy our Thanksgiving menu. Happy Thanksgiving!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Automatically show the popup modal when the page loads
+        document.addEventListener("DOMContentLoaded", function () {
+            const popupModal = new bootstrap.Modal(document.getElementById("pagePopup"));
+            popupModal.show();
+        });
+    </script>
+</body>
+</html>

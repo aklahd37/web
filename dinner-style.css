@@ -1,0 +1,68 @@
+.menu-section {
+  background-color: #f9f5f0; /* Light, subtle background */
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  color: #2d3d34; /* Deep green for text */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2f4f4f; /* Dark Slate Gray */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu-category {
+  margin-bottom: 40px;
+}
+
+.menu-category h3 {
+  font-size: 28px;
+  color: #4a5a4f; /* Slightly lighter green */
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.menu-category ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-category li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.menu-category li strong {
+  display: block;
+  font-size: 20px;
+  color: #2f4f4f;
+}
+
+.menu-category li span {
+  float: right;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.menu-category p {
+  margin: 5px 0 0;
+  font-style: italic;
+  color: #6a7d6c;
+}
+
+.menu-category li::after {
+  content: "";
+  display: block;
+  margin-top: 8px;
+  border-bottom: 1px solid #d3d3d3;
+}

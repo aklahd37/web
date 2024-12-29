@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+  font-family: 'Georgia', serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfbf7;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background-color: #004d26;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Contact Form Section */
+.contact-section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: #004332;
+
+  background-color: #fdfbf7; /* Optional: change background color */
+  padding: 20px; /* Optional: adjust padding */
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-form h2 {
+  color: #004d26;
+  margin-bottom: 5px;
+  text-align: center; /* Center-align the heading */
+}
+
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #e6b800;
+}
+
+/* Contact Details Styling */
+.contact-details {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.contact-details h2 {
+  color: #004d26;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+/* Map Section */
+.map-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.map-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  background-color: #004d26;
+  color: #ffffff;
+  padding: 20px;
+}

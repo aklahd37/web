@@ -1,0 +1,66 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfbf7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.email-signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 40px;
+  background-color: #f7e6d4;
+}
+
+.email-signup-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.email-signup-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #004d26;
+}
+
+.email-signup-container p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.email-signup-form .form-group {
+  margin-bottom: 15px;
+}
+
+.email-signup-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.signup-btn {
+  background-color: #004d26;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.signup-btn:hover {
+  background-color: #00361b;
+  transform: scale(1.05);
+}

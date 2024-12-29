@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Dynamic Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .rating {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        h2{
+          color: #c0a159;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Restaurant Features</h2>
+        <div id="restaurantCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area1.jpg" class="card-img-top" alt="Dining Area 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Royal Dining Hall</h5>
+                                    <p class="card-text"><span class="rating">9.2</span> Superb · 1,020 reviews</p>
+                                    <p class="text-muted">Starting from LKR 8,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area2.jpg" class="card-img-top" alt="Dining Area 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Garden Terrace</h5>
+                                    <p class="card-text"><span class="rating">8.9</span> Fabulous · 850 reviews</p>
+                                    <p class="text-muted">Starting from LKR 7,500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area3.jpg" class="card-img-top" alt="Dining Area 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Luxury Lounge</h5>
+                                    <p class="card-text"><span class="rating">9.5</span> Exceptional · 1,200 reviews</p>
+                                    <p class="text-muted">Starting from LKR 10,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area4.jpg" class="card-img-top" alt="Dining Area 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Outdoor Patio</h5>
+                                    <p class="card-text"><span class="rating">8.7</span> Great · 600 reviews</p>
+                                    <p class="text-muted">Starting from LKR 6,500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area5.jpg" class="card-img-top" alt="Dining Area 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sky View Lounge</h5>
+                                    <p class="card-text"><span class="rating">9.4</span> Superb · 1,300 reviews</p>
+                                    <p class="text-muted">Starting from LKR 11,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="dining_area6.jpg" class="card-img-top" alt="Dining Area 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cozy Corner</h5>
+                                    <p class="card-text"><span class="rating">8.8</span> Fabulous · 700 reviews</p>
+                                    <p class="text-muted">Starting from LKR 5,800</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#restaurantCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#restaurantCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <img src="dining.jpg" width="100%" height="100%" alt="">
+    <img src="dining1.jpg" width="100%" height="100%" alt="">
+</body>
+</html>
